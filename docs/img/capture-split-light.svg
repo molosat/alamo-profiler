@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 262" width="780" height="262" role="img" aria-label="Average frame split into game CPU, draw calls and Present, for plain TR and the fixed version.">
+<rect x="0.5" y="0.5" width="779" height="261" rx="12" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+<rect x="150" y="26" width="14" height="14" rx="3" fill="#1baf7a"/>
+<text x="171" y="38" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#57606a" text-anchor="start">game CPU</text>
+<rect x="280" y="26" width="14" height="14" rx="3" fill="#2a78d6"/>
+<text x="301" y="38" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#57606a" text-anchor="start">draw calls</text>
+<rect x="410" y="26" width="14" height="14" rx="3" fill="#eb6834"/>
+<text x="431" y="38" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#57606a" text-anchor="start">Present</text>
+<text x="24" y="98" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328" text-anchor="start">Plain TR</text>
+<rect x="150" y="64" width="411.165" height="56" rx="3" fill="#1baf7a"/>
+<text x="355.583" y="98" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#06201a" text-anchor="middle">34.4</text>
+<rect x="563.165" y="64" width="1" height="56" rx="3" fill="#2a78d6"/>
+<rect x="565.673" y="64" width="3.72747" height="56" rx="3" fill="#eb6834"/>
+<text x="579.4" y="88" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328" text-anchor="start">35.1 ms</text>
+<text x="579.4" y="109" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#57606a" text-anchor="start">draw 0.2, Present 0.5</text>
+<text x="24" y="178" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328" text-anchor="start">With the lag fix</text>
+<rect x="150" y="144" width="120.182" height="56" rx="3" fill="#1baf7a"/>
+<text x="210.091" y="178" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#06201a" text-anchor="middle">10.2</text>
+<rect x="272.182" y="144" width="1" height="56" rx="3" fill="#2a78d6"/>
+<rect x="274.449" y="144" width="2.90552" height="56" rx="3" fill="#eb6834"/>
+<text x="287.355" y="168" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1f2328" text-anchor="start">10.8 ms</text>
+<text x="287.355" y="189" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#57606a" text-anchor="start">draw 0.2, Present 0.4</text>
+<text x="150" y="240" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" fill="#57606a" text-anchor="start">Mean ms per frame in one test game each. The change is outside Draw and Present.</text>
+</svg>

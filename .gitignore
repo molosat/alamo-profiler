@@ -1,0 +1,11 @@
+/build*/
+/perf_logs*/
+__pycache__/
+*.py[cod]
+*.dll
+*.exe
+*.obj
+*.pdb
+*.lib
+*.exp
+*.a
